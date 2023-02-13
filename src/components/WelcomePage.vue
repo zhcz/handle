@@ -74,19 +74,5 @@ const final = computed(() => ({ py: 'uo', zy: 'ㄨㄛ', sp: 'o' }[inputMode.valu
     <div h-1px w-10 border="b base" m4 />
 
     <div h-1px w-10 border="b base" m4 />
-    <button text-primary op80 hover:op100 @click="variantButton()">
-      {{ t('other-variants') }}
-    </button>
-    <div>
-      <span op40>inspired by </span><a href="https://www.powerlanguage.co.uk/wordle/" target="_blank" op50 hover:op80>Wordle</a>
-      <span op40>, made by </span>
-      <a op50 hover:op80 href="https://twitter.com/antfu7" target="_blank">Anthony</a>
-      <span op40> & </span>
-      <a op50 hover:op80 href="https://twitter.com/iiiiiiines_____" target="_blank">Inès</a>
-    </div>
-    <a href="https://github.com/antfu/handle" target="_blank" flex="~ center gap-1" op50 hover:op80>
-      <div i-carbon-logo-github />
-      Source Code
-    </a>
   </div>
 </template>
